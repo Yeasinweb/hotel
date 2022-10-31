@@ -158,3 +158,8 @@ transition: 0.5s;
     padding-right: 0;
     border-right: none;
  }
+
+ .image_bg{
+    background-image: url(./image/testimonials.jpg);
+    background-size:cover ;
+ }
