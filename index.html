@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hotel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   
+    <link rel="stylesheet" type="text/css" href="animate.css">
 
     <link rel="stylesheet" type="text/css" href="stylehotel.css">
 
@@ -16,6 +18,8 @@
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/bootstrap-icons.svg">
+
+ 
 
     <link rel="stylesheet" type="text/css" href="responsive_style.css">
 
@@ -179,7 +183,7 @@
 
 <!----about section-->
 
-<section class="about mt-5 py-5">
+<section class="wow bounce about mt-5 py-5">
   <div class="container">
     <div class="row g-5 align-items-center">
       <div class="col-lg-6">
@@ -364,7 +368,7 @@
 </section>
 
 <!----service section------->
-<section class="service mt-5 py-5">
+<section class="wow bounceOutLeft service mt-5 py-5">
   <div class="container">
     <div class="text-center wow fadeInUp">
       <h6 class="section-title text-center text-primary text-uppercase">Our Services</h6>
@@ -468,7 +472,7 @@
   </div>
 </section>
 
-<section class="testimonials">
+<section class="wow bounceOut testimonials">
   <div class="container mt-5 py-5 bg-dark wow zoomIn image_bg">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -797,6 +801,10 @@
       const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
+
+    <script src="./js/wow.min.js"></script>
+
+    <script src="./js/custom.js"></script>
 
   </body>
 </html>
